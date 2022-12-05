@@ -1,0 +1,76 @@
+body {
+    background-image: radial-gradient(red, wheat);
+    background-image: url("/pics/nums.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin: 40px 40px;
+    text-align: center;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: inset -3px -1px 6px 1px #131313a1;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.pushed {
+    background-color: green;
+
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+span.display {
+    margin: 30px 30px;
+    border: solid 2px yellow;
+    background-color: black;
+    padding: 5px 30px;
+}
+
+.menu {
+    /* background-color: green; */
+    margin-bottom: 20px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: solid yellow 3px;
+    border-radius: 15px;
+    background-image: url("/pics/nums.jpeg");
+
+}
+
+.difficulty {
+    width: 50px;
+    border-radius: 3px;
+    text-align: left;
+
+}
+
+td button {
+    height: 60px;
+    width: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    /* border: none; */
+    border: solid black 3px;
+    box-shadow: inset -3px -1px 6px 1px #131313a1;
+
+
+}
+
+.new {
+    font: bold;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch Numbers</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <h1>PUSH THE NUMBERS!</h1>
+
+    <p class="msg"></p>
+    <p class="msg"></p>
+    <div class="menu">
+        <p>Choose your level</p>
+        <input type="number" class="difficulty" min="2" max="10" step="1" value="3">
+        <button class="new" onclick="onInit()">New Game</button>
+        <!-- <input class="esay" type="radio">Esay (4X4)
+        <input class="hard" type="radio">Hard (5X5)
+        <input class="extreme" type="radio">Extreme (6X6) -->
+    </div>
+    <div>
+        <span class="display"> Next Number:<span class="next"></span></span>
+        <span class="display">Game Time: <span class="clock"></span></span>
+    </div>
+
+    <table border="0" cellpadding="2">
+        <tbody class="board">
+
+        </tbody>
+
+
+
+
+        <script src="js/util.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
